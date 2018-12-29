@@ -1,0 +1,100 @@
+python
+bin()
+otc()
+int()
+str()
+hex()
+0b101 0o7 0x12
+ord() 获取ascii码值
+
+len()
+max()
+min()
+id()
+round()
+isinstance()判断类型
+sub()替换
+replace()
+match()
+search()
+
+list()
+map()
+reduce()
+filter()
+
+import json
+load()反序列化json->python
+dump()序列化pyton->json
+对象的三个特征：id、value、type
+is，==，isinstance()
+
+组
+list：[1,2,3]
+可改变
+元组：(1,2,3)
+不可改变
+
+无序：集合set
+不重复
+{value1,value2,...}
+空集合set()
+字典dict
+{key1:value1,key2:value2...}
+
+运算符
+/、//、**幂
+
+vscode
+https://marketplace.visualstudio.com/vscode
+ctrl+~打开终端
+
+if xx:
+elif xx:
+else:
+
+while xx:
+else:
+
+for xx in xx:
+else:
+
+for x in range(0,10,2 ):
+包、模块、类名
+import xx as xx1
+import module1,module2,module3.......
+from xxx.xxx import a(具体的变量，类名，函数)
+from t.c7 import *
+from t import c7(模块名)
+
+def function(xxx):
+
+class classname():
+
+内置变量属性
+__all__
+__dict__
+__class__
+__members__
+
+装饰器
+类方法
+@classmethod
+静态方法
+@staticmethod
+装饰器
+@decorator
+
+豆瓣api
+http://api.douban.com/
+https://developers.douban.com/
+
+闭包：函数式编程
+f.__closure__
+f.__closure__[0].cell_contents
+
+
+ 全局变量：global xx
+ nonlocal
+
+
